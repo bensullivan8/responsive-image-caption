@@ -21,10 +21,11 @@ body {
 .img-flex {
   width: 100%;
   margin: 0;
+  display: block;
 }
 
 .caption {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: #e2e2e2;
   padding: 10px;
 }
 
@@ -42,6 +43,11 @@ p {
 }
 
 @media only screen and (min-width: 38em) {
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   .img-flex {
     position: absolute;
   }
@@ -49,6 +55,7 @@ p {
     position: relative;
     bottom: 1em;
     border-radius: 1em;
+    background-color: rgba(0, 0, 0, .3)
   }
   h2 {
     color: #e2e2e2;
@@ -59,9 +66,15 @@ p {
 }
 
 @media only screen and (min-width: 60em) {
-
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 }
 
 @media only screen and (min-width: 90em) {
-
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 }
