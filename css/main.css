@@ -26,7 +26,7 @@ body {
 
 .caption {
   background-color: #e2e2e2;
-  padding: 1px 10px;
+  padding: 1px 20px;
 }
 
 h2 {
@@ -43,6 +43,7 @@ p {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -51,21 +52,25 @@ p {
   .img-flex {
     position: absolute;
   }
+
   .caption {
     position: relative;
     bottom: 1em;
     border-radius: 1em;
-    background-color: rgba(0, 0, 0, .3)
+    background-color: rgba(0, 0, 0, .3);
   }
+
   h2 {
     color: #e2e2e2;
   }
+
   p {
     color: #e2e2e2;
   }
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -73,8 +78,8 @@ p {
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 }
