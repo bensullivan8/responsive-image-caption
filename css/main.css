@@ -50,14 +50,17 @@ p {
   }
 
   .img-flex {
-    position: absolute;
+    position: relative;
   }
 
   .caption {
-    position: relative;
+    position: absolute;
     bottom: 1em;
-    border-radius: 1em;
+    border-radius: .5em;
     background-color: rgba(0, 0, 0, .3);
+    left: 17em;
+    top: 7em;
+    max-width: 50%;
   }
 
   h2 {
